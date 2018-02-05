@@ -1,7 +1,6 @@
 # PolymerCrowding_3D
 ## Description
-Monte Carlo simulation of polymer-nanoparticle mixture. Written primarily by Wei Kang Lim, this code has been
-heavily modified by Wyatt Davis in Java utilizing the Open Source Physics library. This version collects data on conformation of self-avoiding walk polymer. Coarse-grained model approximates chain polymers as ellipsoids. Results of simulation to be published in Journal of Chemical Physics.
+Monte Carlo simulation of polymer-nanoparticle mixture. Written primarily by Wei Kang Lim and Dr. Alan Denton, this code has been heavily modified by Wyatt Davis in Java utilizing the Open Source Physics library. This version collects data on conformation of self-avoiding walk polymer. Coarse-grained model approximates chain polymers as ellipsoids. Results of simulation to be published in Journal of Chemical Physics.
 
 See demo [here](https://drive.google.com/file/d/1q2eVafeQfpbkPia2e4Qd7vwgpsqSGLBS/view?usp=sharing)
 ## Instructions
