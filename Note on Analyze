@@ -1,0 +1,60 @@
+Hi Wyatt,
+
+Here are the FVT predictions for the penetration free energy of a crowded polymer in a good solvent for three crowder volume fractions:
+
+phi_n     epsilon
+0.1        0.578447
+0.2       1.107205
+0.3       1.719540
+
+I computed these values using the polymer field theory prediction:
+
+  epsilon = 4.40724 / q_eff^1.29932 ,
+
+where q_eff is the effective (crowded) size ratio and the Flory exponent is taken as \nu = 0.588 (a bit more accurate than the usual choice of 3/5).
+
+Also, I dug out a note from Ken explaining how to run the python script (analyze.py) to generate the eigenvalue histograms, radius of gyration, and asphericity.  Below is what Ken wrote.  See if the example he gives works for you, and we can discuss tomorrow.
+
+Alan
+
+===============================
+
+"Supposedly, if you save all the run data in a similar folder, for example, a file structure like so:
+o   q=5
+o   phiN=0.1,q=5, <rundate>
+o   phiN=0.2,q=5, <rundate>
+o   phiN=0.3,q=5, <rundate>
+You only need to be in the q=5 folder, and run the script with the grouping distance parameter. For example,
+cd q=5
+analyze.py 1.3
+ 
+The grouping distance is the minimum y-distance between histogram points to be aggregated for the eX data. The eY and eZ distances are scaled appropriately by constant factors. Usually the grouping distance is around 1 ~ 1.5.
+ 
+After the run, the files generated will be:
+o   q=5
+o   phiN=0.1,q=5, <rundate>
+§  eX.dat
+§  eY.dat
+§  eZ.dat
+§  rgr.dat
+§  aspher.dat
+o   phiN=0.2,q=5, <rundate>
+§  eX.dat
+§  eY.dat
+§  eZ.dat
+§  rgr.dat
+§  aspher.dat
+o   phiN=0.3,q=5, <rundate>
+§  eX.dat
+§  eY.dat
+§  eZ.dat
+§  rgr.dat
+§  aspher.dat
+ 
+These are all the aggregated data output for the different simulations after each 5 independent runs.
+ 
+Also, do analyze.py –h to get some primitive help. It’s also possible to analyze data for a specific run, eg:
+analyze.py –r phiN=0.1,q=5, <rundate>
+ 
+You probably already know this, but I’ve also found the saving of run configurations in OSP to be quite useful. You can save the run configurations ax XML and load them. That way you make sure the parameters are consistent between runs."
+
