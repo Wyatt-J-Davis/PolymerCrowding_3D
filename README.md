@@ -12,5 +12,5 @@ walk polymer. Coarse-grained model approximates chain polymers as ellipsoids. Re
 5. It is up to the user to analyze raw geometric data in meaningful way. I recommend writing a custom data analysis script in python.
 
 ## Requirements
-- Java JDK 1.8 (http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+- JDK 1.8 (http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 - Open Source Physics Library (https://www.compadre.org/osp/)
