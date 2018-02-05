@@ -1,9 +1,9 @@
 # PolymerCrowding_3D
 ## Description
 Monte Carlo simulation of polymer-nanoparticle mixture. Written primarily by Wei Kang Lim, this code has been
-heavily modified by Wyatt Davis in Java utilizing the Open Source Physics library. This version collects data on conformation of self-avoiding 
-walk polymer. Coarse-grained model approximates chain polymers as ellipsoids. Results of simulation to be published in Journal of Chemical Physics.
+heavily modified by Wyatt Davis in Java utilizing the Open Source Physics library. This version collects data on conformation of self-avoiding walk polymer. Coarse-grained model approximates chain polymers as ellipsoids. Results of simulation to be published in Journal of Chemical Physics.
 
+See demo [here](https://drive.google.com/file/d/1q2eVafeQfpbkPia2e4Qd7vwgpsqSGLBS/view?usp=sharing)
 ## Instructions
 1. Place Source code in osp_project/src/org/opensourcephysics/sip/CPM/
 2. Compile and run code from osp_project/ using bash script
@@ -12,5 +12,5 @@ walk polymer. Coarse-grained model approximates chain polymers as ellipsoids. Re
 5. It is up to the user to analyze raw geometric data in meaningful way. I recommend writing a custom data analysis script in python.
 
 ## Requirements
-- JDK 1.8 (http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-- Open Source Physics Library (https://www.compadre.org/osp/)
+- [JDK 1.8](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+- [Open Source Physics Library](https://www.compadre.org/osp/)
