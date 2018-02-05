@@ -4,7 +4,7 @@ Monte Carlo simulation of polymer-nanoparticle mixture. Written primarily by Wei
 heavily modified by Wyatt Davis in Java utilizing the Open Source Physics library. This version collects data on conformation of self-avoiding 
 walk polymer. Coarse-grained model approximates chain polymers as ellipsoids. Results of simulation to be published in Journal of Chemical Physics.
 
-##Instructions
+## Instructions
 1. Place Source code in osp_project/src/org/opensourcephysics/sip/CPM/
 2. Compile and run code from osp_project/ using bash script
 3. Specify run parameters using GUI
