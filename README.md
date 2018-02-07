@@ -7,7 +7,7 @@ See demo [here](https://drive.google.com/file/d/1q2eVafeQfpbkPia2e4Qd7vwgpsqSGLB
 1. Place Source code in osp_project/src/org/opensourcephysics/sip/CPM/
 2. Compile and run code from osp_project/ using bash script
 3. Specify run parameters using GUI
-4. The simulation will store raw polymer eigenvalue data in osp_project/data/ for five independant runs
+4. The simulation will store raw polymer gyration tensor eigenvalue data in osp_project/data/ for five independant runs
 5. It is up to the user to analyze raw geometric data in meaningful way. I recommend writing a custom data analysis script in python.
 
 ## Requirements
